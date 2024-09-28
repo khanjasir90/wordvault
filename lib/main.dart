@@ -32,6 +32,7 @@ class _WordVaultAppState extends State<WordVaultApp> {
       isDarkMode: isDarkMode,
       onThemeChanged: toggleTheme,
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Word Vault',
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.darkTheme,

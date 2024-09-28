@@ -1,4 +1,4 @@
-package com.example.wordvault
+package com.wordvault
 
 import io.flutter.embedding.android.FlutterActivity
 
