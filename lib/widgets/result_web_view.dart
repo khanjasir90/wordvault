@@ -49,7 +49,7 @@ class _SearchResutlWebViewState extends State<SearchResutlWebView> {
         centerTitle: true,
         leading: GestureDetector(
           onTap: onBackPress,
-          child: const Icon(Icons.arrow_back, color: Colors.white,),
+          child: const Icon(Icons.arrow_back,),
         ),
         title: const Text('Meaning',),
       ),
